@@ -6,7 +6,7 @@ function expandMenu(){
     var sideBar = document.getElementById("sideBar");
     sideBar.style.visibility = "visible";
     var desiredWidth = 200; var rad = 0;
-    var animation = setInterval(animate, 3);
+    var animation = setInterval(animate, 1);
     function animate(){
         if(rad == 100)
             clearInterval(animation);
@@ -19,7 +19,7 @@ function expandMenu(){
 function closeMenu(){
     var sideBar = document.getElementById("sideBar");
     var desiredWidth = 200; var rad = 100;
-    var animation = setInterval(animate, 3);
+    var animation = setInterval(animate, 1);
     function animate(){
         if(rad == 0) {
             clearInterval(animation);

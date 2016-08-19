@@ -83,7 +83,6 @@ a {
 }
 
 .main_info {
-    height: 2000px;
     padding: 10px;
     margin-top: -200px;
     background-color: white;
@@ -108,4 +107,11 @@ h2 {
 
 h3 {
     color: #3F51B5;
+}
+
+.divider {
+    border-bottom: solid #B0BEC5 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 10px;
 }

@@ -8,7 +8,7 @@ function expandMenu(){
     var desiredWidth = 200; var rad = 0;
     var animation = setInterval(animate, 2);
     function animate(){
-        if(rad == 100)
+        if(rad == 90)
             clearInterval(animation);
         rad += 2;
         console.log(rad);
@@ -18,7 +18,7 @@ function expandMenu(){
 
 function closeMenu(){
     var sideBar = document.getElementById("sideBar");
-    var desiredWidth = 200; var rad = 100;
+    var desiredWidth = 200; var rad = 90;
     var animation = setInterval(animate, 2);
     function animate(){
         if(rad == 0) {

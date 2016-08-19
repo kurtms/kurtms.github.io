@@ -6,7 +6,6 @@
 
 body {
     background-color: #E8EAF6;
-    -webkit-text-size-adjust: 100%; // iphone width fix
 }
 
 a {
@@ -23,7 +22,7 @@ a {
 }
 
 .navBarElements {
-    margin:-4px 0 0 0;
+    margin:-4px;
 }
 
 #sideBar {
@@ -75,7 +74,7 @@ a {
 
 .main_info {
     padding: 10px;
-    margin: -200px 0 0 0;
+    margin-top: -200px;
     background-color: white;
     position: relative;
     box-shadow: 0 10px 10px 0 rgba(0,0,0,.19), 0 6px 3px 0 rgba(0,0,0,.23);

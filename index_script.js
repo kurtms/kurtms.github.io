@@ -36,13 +36,12 @@ window.onload = function bringUpMain(){
     var mainInfo = document.getElementsByClassName("main_info")[0];
     var prevMarginTop = mainInfo.style.marginTop;
     var desiredMarginTop = -200; var rad = 0;
-    var animation = setInterval(animate, 4);
+    var animation = setInterval(animate, 1);
     function animate(){
         if(rad == 100) {
             clearInterval(animation);
         }
-        console.log(rad);
-        rad += 1;
-        mainInfo.style.marginTop = prevMarginTop + desiredMarginTop * Math.sin(rad * Math.PI/180) + "px";
+        rad++;
+        mainInfo.style.marginTop = prevMarginTop - (prevMarginTop - desiredMarginTop) * Math.sin(rad * Math.PI/180) + "px";
     }
 }
